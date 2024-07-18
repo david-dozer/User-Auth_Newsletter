@@ -1,0 +1,49 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: "Noto Serif Georgian", serif;
+    --bg-color: #0f0e0e;
+    --second-bg-color: #1a1919;
+    --text-color: #ffffffec;
+    --main-color: #d8e494;
+  }
+  
+  #app {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #fff;
+    padding: 8px;
+    text-align: left;
+  }
+
+  h1 {
+    font-family: "Cinzel", serif;
+    text-align: center;
+  }
+  
+  button {
+    background-color: var(--main-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-family: "Noto Serif Georgian", serif;
+  }
+  
+  input, textarea {
+    width: 98%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #333;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
